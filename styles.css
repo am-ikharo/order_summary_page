@@ -64,10 +64,13 @@ body {
 .plan-container a {
    padding-top: 20px;
    color: rgb(87, 95, 214);
+   border: none;
    
 }
 
-.proceed-button {
-    
+.proceed-button button {
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
 }
 
