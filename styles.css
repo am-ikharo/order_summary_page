@@ -8,17 +8,18 @@ body {
     background-color: rgb(215, 234, 242);
 }
 
-.inner-container {
+.container {
     width: 35%;
     margin: auto;
     border: 1px solid gray;
-    border-radius: 10px;
+    border-radius: 15px;
     margin-top: 30px;
     background-color: white;
 }
 
 .banner-img {
-    width: max-content;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
 }
 
 .summary-container{
@@ -90,5 +91,8 @@ body {
 .cancel-button a {
     justify-content: center;
     text-decoration: none;
+    align-items: center;
+    margin: 90px;
+    padding: 30px;
 }
 
